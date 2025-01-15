@@ -1,0 +1,69 @@
+﻿@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_RegisterLayout.cshtml";
+}
+
+<div class="container">
+    <div class="row mt-lg-n10 mt-md-n11 mt-n10 justify-content-center">
+        <div class="col-xl-4 col-lg-5 col-md-7 mx-auto">
+            <div class="card z-index-0">
+
+                <div class="card-header text-center pt-4">
+                    <h5>Register</h5>
+
+                    @if (!string.IsNullOrEmpty(ViewBag.Message))
+                    {
+                        <p class="alert mb-0 text-danger">@ViewBag.Message</p>
+                    }
+                </div>
+                <div class="card-body">
+                    <form method="post" asp-action="Register" asp-controller="Account">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Name" name="username" value="@ViewBag.Username" aria-label="Name">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Email" name="email" value="@ViewBag.Email" aria-label="Email">
+                        </div>
+                        <div class="mb-3">
+                            <input type="password" class="form-control" placeholder="Password" name="password" aria-label="Password">
+                        </div>
+                        <div class="form-check form-check-info text-start">
+                            <input class="form-check-input" type="checkbox" value="true" name="flexCheckDefault" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                I agree the <a  class="text-dark font-weight-bolder">Terms and Conditions</a>
+                            </label>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-lg btn-primary btn-lg w-100 mt-4 mb-0">Sign up</button>
+                        </div>
+                        <p class="text-sm mt-3 mb-0">Already have an account? <a href="/Account/Index" class="text-dark font-weight-bolder">Sign in</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section scripts {
+    <script src="~/login/js/core/popper.min.js"></script>
+    <script src="~/login/js/core/bootstrap.min.js"></script>
+    <script src="~/login/js/core/bootstrap.bundle.min.js"></script>
+
+    <script src="~/login/js/plugins/perfect-scrollbar.min.js"></script>
+    <script src="~/login/js/plugins/smooth-scrollbar.min.js"></script>
+    <script>
+        var win = navigator.platform.indexOf('Win') > -1;
+        if (win && document.querySelector('#sidenav-scrollbar')) {
+            var options = {
+                damping: '0.5'
+            }
+            Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
+        }
+    </script>
+    <!-- Github buttons -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <!-- Control Center for Soft Dashboard: parallax effects, scripts for the example pages etc -->
+
+    <script src="~/login/js/argon-dashboard.js"></script>
+}

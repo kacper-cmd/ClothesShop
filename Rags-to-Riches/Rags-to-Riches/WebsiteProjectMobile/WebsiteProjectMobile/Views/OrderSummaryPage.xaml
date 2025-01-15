@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WebsiteProjectMobile.Views.OrderSummaryPage">
+
+    <ContentPage.Content>
+        <Grid VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+            <Frame BorderColor="Gray" CornerRadius="10" Padding="10" Margin="20">
+                <StackLayout Spacing="10" Padding="10">
+                    <Label Text="Order Summary" FontSize="Title" />
+
+                    <Label Text="Order ID" FontAttributes="Bold" />
+                    <Entry Text="{Binding Order.OrderId, Mode=OneWay}" IsEnabled="False" />
+
+
+                    <Label Text="Customer Name" FontAttributes="Bold" />
+                    <Entry Text="{Binding Order.User.Username}" />
+
+                    
+                    <!--<Label Text="Total Amount" FontAttributes="Bold" />
+                    <Entry Text="{Binding Order.TotalCost}" />-->
+                    <Label Text="Total Amount" FontAttributes="Bold" />
+                    <Label Text="{Binding Order.TotalCost}" />
+
+                    <Label Text="Order Date" FontAttributes="Bold" />
+                    <DatePicker Date="{Binding Order.OrderDate}" IsEnabled="False" />
+
+
+
+                    <!--<Label Text="Status" FontAttributes="Bold" />
+                    <Entry Text="{Binding Order.OrderStatus.Name}" />-->
+
+
+                    <Label Text="Items" FontAttributes="Bold" />
+                    <CollectionView ItemsSource="{Binding Order.OrderProducts}">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Frame BackgroundColor="#EDEDED" Padding="10" Margin="10">
+                                    <StackLayout Orientation="Vertical">
+                                        <Label Text="{Binding Product.Name}" FontSize="Subtitle" />
+                                        <Entry Text="{Binding Quantity}" />
+                                        <Entry Text="{Binding Price}" />
+                                        <Entry Text="{Binding Product.Size.Size1}" />
+                                    </StackLayout>
+                                </Frame>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                        <CollectionView.ItemsLayout>
+                            <LinearItemsLayout Orientation="Vertical" />
+                        </CollectionView.ItemsLayout>
+                    </CollectionView>
+
+                    <!--<Button Text="Confirm Order" Command="confirmOrder" />-->
+                </StackLayout>
+            </Frame>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

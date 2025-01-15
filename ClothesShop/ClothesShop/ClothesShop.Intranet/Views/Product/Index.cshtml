@@ -1,0 +1,263 @@
+﻿@*@model IEnumerable<ClothesShop.Data.Data.Shop.Product>*@
+@model PaginatedList<ClothesShop.Data.Data.Shop.Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+@*
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                 <a asp-action="Index" asp-route-sortOrder="@ViewData["NameSortParam"]">
+                                                @Html.DisplayNameFor(model => model.Name)
+                                            </a>
+            </th>
+            <th>
+                 <a asp-action="Index" asp-route-sortOrder="@ViewData["PriceSortParam"]">
+                                                @Html.DisplayNameFor(model => model.Price)
+                                            </a>
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImageNameUrl)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsActive)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Color)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Category)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ImageNameUrl)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IsActive)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Color)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Category.Name)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.ProductId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.ProductId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.ProductId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+*@
+
+
+
+
+
+
+
+
+
+
+<div class="container-fluid py-4">
+
+    <div class="row mt-2">
+
+        <div class="card mb-8">
+            <div class="card-header pb-0 pt-3 bg-transparent">
+                <h1 class="display">Product</h1>
+                <a asp-action="Create" class="btn btn-icon btn-3 btn-primary active" type="button">
+                    <span class="btn-inner--text">Create New</span>
+                </a>
+                <a asp-action="ListOfProducts" class="btn btn-icon btn-3 btn-primary active" type="button">
+                    <span class="btn-inner--text">Download PDF</span>
+                </a>
+            </div>
+
+            <form asp-action="Index" method="get">
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <div class="form-action">
+                            <p>
+                                Find by name : <input type="text" class="form-control" name="searchString" value="@ViewData["CurrentFilter"]" />
+                                Category:
+                                <select name="categoryFilter" class="form-control">
+                                    <option value="0">All</option>
+                                    @foreach (var category in ViewBag.Categories)
+                                    {
+                                        @*<option value="@category.CategoryId" selected="@((int?)category.CategoryId == ViewBag.CategoryFilter ? "selected" : null)">@category.Name</option>*@
+                                        <option value="@category.CategoryId" selected="@((int?)category.CategoryId == (int?)ViewData["CategoryFilterDropDown"] ? "selected" : null)">@category.Name</option>
+                                    }
+                                </select>
+                                <a asp-action="Index" class="btn btn-icon btn-3 btn-primary active" type="button">Back to Full List</a>
+                                <input type="submit" value="Search" class="btn btn-primary" />
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="card-body px-0 pt-0 pb-2">
+                <div class="table-responsive p-0">
+
+                    <div class="card">
+                        <div class="table-responsive">
+                            <table class="table align-items-center mb-0">
+                                <thead>
+                                    <tr>
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                            @*   <a asp-action="Index" asp-route-sortOrder="@ViewData["NameSortParam"]">
+                                            @Html.DisplayNameFor(model => model.Name)
+                                            </a>*@
+                                            <a asp-action="Index" asp-route-sortOrder="@ViewData["NameSortParam"]"
+                                               asp-route-currentFilter="@ViewData["CurrentFilter"]">
+                                                Name
+                                            </a>
+                                        </th>
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
+                                            @*  <a asp-action="Index" asp-route-sortOrder="@ViewData["PriceSortParam"]">
+                                            @Html.DisplayNameFor(model => model.Price)
+                                            </a>*@
+                                            <a asp-action="Index" asp-route-sortOrder="@ViewData["PriceSortParam"]"
+                                               asp-route-currentFilter="@ViewData["CurrentFilter"]">
+                                                Price
+                                            </a>
+                                        </th>
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
+                                            @*@Html.DisplayNameFor(model => model.ImageNameUrl)*@
+                                            ImageNameUrl
+                                        </th>
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
+                                            @*@Html.DisplayNameFor(model => model.Description)*@
+                                            Description
+                                        </th>
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
+                                            @*@Html.DisplayNameFor(model => model.IsActive)*@
+                                            IsActive
+                                        </th>
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
+                                            @*@Html.DisplayNameFor(model => model.Color)*@
+                                            Color
+                                        </th>
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                            @*@Html.DisplayNameFor(model => model.Category)*@
+                                            Category
+                                        </th>
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>
+                                                <p class="text-xs font-weight-bold mb-0">
+                                                    @Html.DisplayFor(modelItem => item.Name)
+                                                </p>
+
+                                            </td>
+                                            <td>
+                                                <p class="text-xs font-weight-bold mb-0">
+                                                    @Html.DisplayFor(modelItem => item.Price)
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <div class="d-flex px-2">
+                                                    @{
+                                                        if (item.ImageNameUrl != null)
+                                                        {
+                                                            <div>
+                                                                <img src="~/images/@Html.DisplayFor(modelItem => item.ImageNameUrl)" class="avatar avatar-sm rounded-circle me-2">
+                                                            </div>
+                                                            <div class="my-auto">
+                                                                <h6 class="mb-0 text-xs">@Html.DisplayFor(modelItem => item.ImageNameUrl)</h6>
+                                                            </div>
+                                                        }
+                                                        else
+                                                        {
+                                                            <div>
+                                                                <img src="~/images/empty.png" class="avatar avatar-sm rounded-circle me-2">
+                                                            </div>
+                                                        }
+                                                    }
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <p class="text-xs font-weight-bold mb-0">
+                                                    @Html.Raw(item.Description)
+                                                </p>
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.IsActive)
+                                            </td>
+                                            <td>
+                                                <p class="text-xs font-weight-bold mb-0">
+                                                    @Html.DisplayFor(modelItem => item.Color)
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p class="text-xs font-weight-bold mb-0">
+                                                    @Html.DisplayFor(modelItem => item.Category.Name)
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <a asp-action="Edit" asp-route-id="@item.ProductId" class="btn btn-primary"><i class="bi bi-pencil"></i></a>
+                                                @*<a asp-action="Details" asp-route-id="@item.ProductId" class="btn btn-primary"><i class="bi bi-eye"></i></a>*@
+                                                <a asp-action="Delete" asp-route-id="@item.ProductId" class="btn btn-danger"><i class="bi bi-trash"></i></a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                            @{
+                                var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+                                var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+                            }
+                            <a asp-action="Index" asp-route-sortOrder="@ViewData["CurrentSort"]"
+                               asp-route-pageNumber="@(Model.PageIndex-1)"
+                               asp-route-currentFilter="@ViewData["CurrentFilter"]"
+                               class="btn btn-default @prevDisabled">
+                                Previous
+                            </a>
+                            <a asp-action="Index" asp-route-sortOrder="@ViewData["CurrentSort"]"
+                               asp-route-pageNumber="@(Model.PageIndex+1)"
+                               asp-route-currentFilter="@ViewData["CurrentFilter"]"
+                               class="btn btn-default @nextDisabled">
+                                Next
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

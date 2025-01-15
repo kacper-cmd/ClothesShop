@@ -1,0 +1,100 @@
+﻿@model IEnumerable<ClothesShop.Data.Data.CMS.Footer>
+
+<!-- Footer Section Begin -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                @foreach (var item in Model)
+                {
+                    @if (@item.ColumnNumber == 1)
+                    {
+
+
+                        <div class="footer__widget">
+                            <h6>@item.Title</h6>
+                        </div>
+                        <div class="footer__about">
+                            @if (@item.Logo != null)
+                            {
+                                <div class="footer__logo">
+                                    <a href="#"><img src="@item.Logo" alt=""></a>
+                                </div>
+                            }
+                            <p>@item.Description</p>
+                        </div>
+                        <div class="footer__newslatter">
+                            <a href="#"><img src="@item.Icon" alt=""></a>
+
+                        </div>
+
+
+                    }
+                }
+                @*  <div class="footer__about">
+                <div class="footer__logo">
+                <a href="#"><img src="~/bootstrap/img/footer-logo.png" alt=""></a>
+                </div>
+                <p>Shop smart, shop thrift: Save money and the planet!</p>
+                <a href="#"><img src="~/bootstrap/img/payment.png" alt=""></a>
+                </div>*@
+            </div>
+            <div class="col-lg-2 offset-lg-1 col-md-6 col-sm-6">
+                    @foreach (var item in Model)
+                {
+                    @if (@item.ColumnNumber == 3)
+                    {
+                        <div class="footer__widget">
+                            <h6>@item.Title</h6>
+                            <ul>
+                                @* <li><a href="#">Clothing Store</a></li>
+            <li><a href="#">Trending Shoes</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">Sale</a></li>*@
+                                <li> <a href="@item.Url"><i class="@item.Icon"></i></a> </li>
+                              @*  <li><a href="@item.Url"><i class="@item.Icon"></i></a></li>
+                                <li> <a href="@item.Url"><i class="@item.Icon"></i></a></li>
+                                <li> <a href="@item.Url"><i class="fa fa-instagram"></i></a></li>*@
+                            </ul>
+                        </div>
+                    }
+                }
+
+                        </div>
+                  
+            @* <div class="col-lg-3 offset-lg-1 col-md-6 col-sm-6">
+            <div class="footer__widget">
+            <h6>NewLetter</h6>
+            <div class="footer__newslatter">
+            <p>Be the first to know about new arrivals, look books, sales & promos!</p>
+            <form action="#">
+            <input type="text" placeholder="Your email">
+            <button type="submit"><span class="icon_mail_alt"></span></button>
+            </form>
+            </div>
+            </div>
+            </div>*@
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                @foreach (var item in Model)
+                {
+                    //@if (@item.Title.ToLower().Contains("copyright"))
+                    @if (@item.ColumnNumber == 2)
+                    {
+                        <div class="footer__copyright__text">
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            <p>
+                                @item.Title @DateTime.Now.Year -
+
+                                @item.Description
+                            </p>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer Section End -->

@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WebsiteProjectMobile.Views.NewProductPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Entry" x:Key="RoundedEntryStyle">
+                <Setter Property="BackgroundColor" Value="Azure" />
+                <Setter Property="TextColor" Value="Black" />
+                <Setter Property="PlaceholderColor" Value="Gray" />
+                <Setter Property="FontSize" Value="16" />
+                <Setter Property="HeightRequest" Value="40" />
+            </Style>
+            <Style TargetType="Frame" x:Key="RoundedEntryFrameStyle">
+                <Setter Property="CornerRadius" Value="10" />
+                <Setter Property="Padding" Value="5" />
+            </Style>
+            <Style TargetType="Label" x:Key="ModernLabelStyle">
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="BackgroundColor" Value="#879ec4" />
+                <Setter Property="FontSize" Value="18" />
+                <Setter Property="HorizontalTextAlignment" Value="Center" />
+                <Setter Property="VerticalTextAlignment" Value="Center" />
+                <Setter Property="FontAttributes" Value="Bold" />
+                <Setter Property="HeightRequest" Value="40" />
+                <Setter Property="Margin" Value="10" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Frame BorderColor="Gray"
+           CornerRadius="10"
+           Padding="30" Margin="10">
+        <StackLayout>
+            <Label Text="Add Product" Style="{StaticResource ModernLabelStyle}" />
+
+            <BoxView Color="Gray"
+                     HeightRequest="2"
+                     HorizontalOptions="Fill" />
+            <StackLayout Padding="10">
+                <Label Text="Product id" />
+                <Frame Style="{StaticResource RoundedEntryFrameStyle}">
+                    <Entry Placeholder="Enter Id" Style="{StaticResource RoundedEntryStyle}" Keyboard="Numeric"
+                   Text="{Binding ProductId, Mode=TwoWay}" />
+                </Frame>
+            </StackLayout>
+            <StackLayout Padding="10">
+                <Label Text="Product Description" />
+                <Frame Style="{StaticResource RoundedEntryFrameStyle}">
+                    <Entry Placeholder="Enter product description" Style="{StaticResource RoundedEntryStyle}"
+                   Text="{Binding Description, Mode=TwoWay}" />
+                </Frame>
+                <Label Text="{Binding DescriptionError}" TextColor="Red" />
+            </StackLayout>
+            <StackLayout Padding="10">
+                <Label Text="Price" />
+                <Frame Style="{StaticResource RoundedEntryFrameStyle}">
+                    <Entry Placeholder="Enter price" Style="{StaticResource RoundedEntryStyle}" Keyboard="Numeric"
+                   Text="{Binding Cost, Mode=TwoWay}" />
+                </Frame>
+                <Label Text="{Binding CostError}" TextColor="Red" />
+            </StackLayout>
+            <StackLayout Padding="10">
+                <Label Text="Image URL" />
+                <Frame Style="{StaticResource RoundedEntryFrameStyle}">
+                    <Entry Placeholder="Enter image URL" Style="{StaticResource RoundedEntryStyle}"
+                   Text="{Binding ImageUrl, Mode=TwoWay}" />
+                </Frame>
+                <Label Text="{Binding ImageUrlError}" TextColor="Red" />
+            </StackLayout>
+            <StackLayout Padding="10">
+                <Label Text="Category" />
+                <Frame Style="{StaticResource RoundedEntryFrameStyle}">
+                    <Picker ItemsSource="{Binding Categories}" SelectedItem="{Binding SelectedCategory}"   
+                            ItemDisplayBinding="{Binding Name}"  Title="Select Category"/>
+                        
+                </Frame>
+                <Label Text="{Binding SelectedCategoryError}" TextColor="Red" />
+            </StackLayout>
+            <StackLayout Padding="10">
+                <Label Text="Size" />
+                <Frame Style="{StaticResource RoundedEntryFrameStyle}">
+                    <Picker ItemsSource="{Binding Sizes}" SelectedItem="{Binding SelectedSize}"   
+                            ItemDisplayBinding="{Binding Size1}"  Title="Select Size"/>
+
+                </Frame>
+            </StackLayout>
+            <!--<StackLayout Padding="10">
+                <Label Text="Size" />
+                <Frame Style="{StaticResource Key=RoundedEntryFrameStyle}">
+                    <Entry Text="{Binding Size1}" Placeholder="Enter Size" />
+                </Frame>
+                <Label Text="{Binding SelectedSizeError}" TextColor="Red" />
+            </StackLayout>-->
+
+            <Button Text="Save" Command="{Binding SaveCommand}" BackgroundColor="Gray" BorderColor="Gray" BorderWidth="1" CornerRadius="10" WidthRequest="20" HeightRequest="30" />
+            <Button TextColor="Black" Text="Cancel" Command="{Binding CancelCommand}" HorizontalOptions="FillAndExpand"></Button>
+
+
+        </StackLayout>
+    </Frame>
+</ContentPage>
+
+<!--if i have size and category in my database, i can add product, 
+ but if i don't have size and category in my database, i can't add product.
+    i want to add product without size and category. how can i do that? -->

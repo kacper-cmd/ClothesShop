@@ -1,0 +1,237 @@
+﻿@model IEnumerable<ClothesShop.Data.Data.Shop.Order>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<style>
+    .status-in-progress {
+        color: blue;
+    }
+
+    .status-shipped {
+        color: green;
+    }
+
+    .status-delivered {
+        color: orange;
+    }
+
+    .status-cancelled {
+        color: red;
+    }
+
+    .status-returned {
+        color: purple;
+    }
+
+    .status-refunded {
+        color: gray;
+    }
+</style>
+
+@*<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.OrderDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CustomerName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Street)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.City)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.State)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ZipCode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.User)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OrderStatus)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.OrderDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Street)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.City)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.State)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ZipCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.User.Password)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OrderStatus.OrderStatusId)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.OrderId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.OrderId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.OrderId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+*@
+
+
+
+
+
+<div class="container-fluid py-4">
+    <div class="row mt-2">
+        <div class="card mb-8">
+            <div class="card-header pb-0 pt-3 bg-transparent">
+                <h1 class="display">Orders</h1>
+             @*   <a asp-action="Create" class="btn btn-icon btn-3 btn-primary active" type="button">
+                       <span class="btn-inner--text">Create New</span>
+                </a>*@
+            </div>
+            <div class="card-body px-0 pt-0 pb-2">
+                <div class="table-responsive p-0">
+
+                    <div class="card">
+                        <div class="table-responsive">
+                            <table class="table align-items-center mb-0">
+                                <thead>
+                                    <tr>
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                            @Html.DisplayNameFor(model => model.OrderDate)
+                                        </th>
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
+                                            @Html.DisplayNameFor(model => model.CustomerName)
+                                        </th>
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                            @Html.DisplayNameFor(model => model.Street)
+                                        </th>
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
+                                            @Html.DisplayNameFor(model => model.City)
+                                        </th>
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                            @Html.DisplayNameFor(model => model.State)
+                                        </th>
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
+                                            @Html.DisplayNameFor(model => model.ZipCode)
+                                        </th>
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                            @Html.DisplayNameFor(model => model.User)
+                                        </th>
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
+                                            @Html.DisplayNameFor(model => model.OrderStatus)
+                                        </th>
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>
+                                                <p class="text-xs font-weight-bold mb-0">
+                                                    @Html.DisplayFor(modelItem => item.OrderDate)
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p class="text-xs font-weight-bold mb-0">
+                                                    @Html.DisplayFor(modelItem => item.CustomerName)
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p class="text-xs font-weight-bold mb-0">
+                                                    @Html.DisplayFor(modelItem => item.Street)
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p class="text-xs font-weight-bold mb-0">
+                                                    @Html.DisplayFor(modelItem => item.City)
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p class="text-xs font-weight-bold mb-0">
+                                                    @Html.DisplayFor(modelItem => item.State)
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p class="text-xs font-weight-bold mb-0">
+                                                    @Html.DisplayFor(modelItem => item.ZipCode)
+                                                </p>
+                                            </td>
+                                       
+                                            <td>
+                                                <p class="text-xs font-weight-bold mb-0">
+                                                    @Html.DisplayFor(modelItem => item.User.Username)
+                                                </p>
+                                            </td>
+                                           @* <td>
+                                                @Html.DisplayFor(modelItem => item.OrderStatus.StatusName)
+                                            </td>*@
+                                            <td>
+                                                @switch (item.OrderStatus.StatusName)
+                                                {
+                                                    case "In Progress":
+                                                        <span class="status-in-progress">@Html.DisplayFor(modelItem => item.OrderStatus.StatusName)</span>
+                                                        break;
+                                                    case "Shipped":
+                                                        <span class="status-shipped">@Html.DisplayFor(modelItem => item.OrderStatus.StatusName)</span>
+                                                        break;
+                                                    case "Delivered":
+                                                        <span class="status-delivered">@Html.DisplayFor(modelItem => item.OrderStatus.StatusName)</span>
+                                                        break;
+                                                    case "Cancelled":
+                                                        <span class="status-cancelled">@Html.DisplayFor(modelItem => item.OrderStatus.StatusName)</span>
+                                                        break;
+                                                    case "Returned":
+                                                        <span class="status-returned">@Html.DisplayFor(modelItem => item.OrderStatus.StatusName)</span>
+                                                        break;
+                                                    case "Refunded":
+                                                        <span class="status-refunded">@Html.DisplayFor(modelItem => item.OrderStatus.StatusName)</span>
+                                                        break;
+                                                    default:
+                                                        <span>@Html.DisplayFor(modelItem => item.OrderStatus.StatusName)</span>
+                                                        break;
+                                                }
+                                            </td>
+
+                                            <td>
+                                                <a asp-action="Edit" asp-route-id="@item.OrderId" class="btn btn-primary"><i class="bi bi-pencil"></i></a>
+                                                <a asp-action="Delete" asp-route-id="@item.OrderId" class="btn btn-danger"><i class="bi bi-trash"></i></a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,137 @@
+﻿@model ClothesShop.PortalWWW.ViewModel.FilterViewModel
+
+
+@*    <div>
+        <label for="CategoryId">Category:</label>
+        @Html.DropDownList("CategoryId", ViewBag.Categories as SelectList, "All")
+    </div>
+    
+    <div>
+        <label for="Color">Color:</label>
+        @Html.DropDownList("Color", ViewBag.Colors as SelectList, "All")
+    </div>
+    
+    <div>
+        <label for="Price">Price:</label>
+        @Html.TextBox("MinPrice")
+        -
+        @Html.TextBox("MaxPrice")
+    </div>
+    
+    <div>
+        <button type="submit">Filter</button>
+    </div>
+*@
+
+
+@using (Html.BeginForm("Index", "Shop", FormMethod.Post))
+{
+
+<div class="card">
+    <div class="card-heading">
+        <a data-toggle="collapse" data-target="#collapseOne">Categories</a>
+    </div>
+    <div id="collapseOne" class="collapse show" data-parent="#accordionExample">
+        <div class="card-body">
+            <div class="shop__sidebar__categories">
+                <label for="CategoryId">Category:</label>
+              
+                <ul class="nice-scroll">
+                    @foreach (var category in ViewBag.Categories as SelectList)
+                    {
+                        var selectedCategory = TempData["SelectedCategory"] as int?;
+                        bool isSelected = selectedCategory.HasValue && selectedCategory.Equals(category.Value);
+
+                        <li>
+                            <input type="radio" name="filter.CategoryId" id="@category.Value" value="@category.Value" @(isSelected ? "checked" : "")>
+                            <label for="@category.Value">@category.Text (@category.Value)</label>
+                        </li>
+                       @* <li>
+                            <input type="radio" name="filter.CategoryId" id="@category.Value" value="@category.Value">
+
+                            <label for="@category.Value">@category.Text (@category.Value)</label>
+
+                        </li>*@
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-heading">
+        <a data-toggle="collapse" data-target="#collapseThree">Filter Price</a>
+    </div>
+    <div id="collapseThree" class="collapse show" data-parent="#accordionExample">
+        <div class="card-body">
+            <div class="shop__sidebar__price">
+                <ul>
+                    @{
+                        decimal minPrice = ViewBag.MinPrice;
+                        decimal maxPrice = ViewBag.MaxPrice;
+                        decimal priceRange = 500; // Define your desired price range interval
+                    
+                        for (decimal price = minPrice; price <= maxPrice; price += priceRange)
+                        {
+                            decimal rangeStart = price;
+                            decimal rangeEnd = price + priceRange - 0.01m; // Adjust the end range value as needed
+
+                            //<li>
+                            //    <a href="#" data-min="@rangeStart" data-max="@rangeEnd">
+                            //        $@rangeStart - $@rangeEnd
+                            //    </a>
+                            //</li>
+                            <li>
+                                <input type="radio" name="priceRange" id="priceRange_@rangeStart" value="$@rangeStart - $@rangeEnd">
+                                <label for="priceRange_@rangeStart">$@rangeStart - $@rangeEnd</label>
+                            </li>
+
+                        }
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="card">
+        <div class="card-heading">
+            <a data-toggle="collapse" data-target="#collapseFive">Colors</a>
+        </div>
+        <div id="collapseFive" class="collapse show" data-parent="#accordionExample">
+            <div class="card-body">
+                <div class="shop__sidebar__color">
+                    <label class="c-1" for="colorFilter_black">
+                        <input type="radio" id="colorFilter_black" name="filter.Color" value="black">
+                    </label>
+                    <label class="c-2" for="colorFilter_blue">
+                        <input type="radio" id="colorFilter_blue" name="filter.Color" value="blue">
+                    </label>
+                    <label class="c-3" for="colorFilter_yellow">
+                        <input type="radio" id="colorFilter_yellow" name="filter.Color" value="yellow">
+                    </label>
+                    <label class="c-4" for="colorFilter_grey">
+                        <input type="radio" id="colorFilter_grey" name="filter.Color" value="grey">
+                    </label>
+                    <label class="c-5" for="colorFilter_green">
+                        <input type="radio" id="colorFilter_green" name="filter.Color" value="green">
+                    </label>
+                    <label class="c-6" for="colorFilter_pink">
+                        <input type="radio" id="colorFilter_pink" name="filter.Color" value="pink">
+                    </label>
+                    <label class="c-7" for="colorFilter_purple">
+                        <input type="radio" id="colorFilter_purple" name="filter.Color" value="purple">
+                    </label>
+                    <label class="c-8" for="colorFilter_red">
+                        <input type="radio" id="colorFilter_red" name="filter.Color" value="red">
+                    </label>
+                    <label class="c-9" for="colorFilter_white">
+                        <input type="radio" id="colorFilter_white" name="filter.Color" value="white">
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<button type="submit" class="btn btn-primary">Apply Filters</button>
+}

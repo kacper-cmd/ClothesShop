@@ -1,0 +1,197 @@
+﻿@*@model IEnumerable<ClothesShop.Data.Data.Shop.Product>*@
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model ClothesShop.PortalWWW.ViewModel.ProductsViewModel
+
+@{
+    ViewData["Title"] = "Shop";
+    Layout = "~/Views/Shared/_ShopLayout.cshtml";
+}
+<!-- Breadcrumb Section Begin -->
+
+@*<section class="breadcrumb-option">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb__text">
+                    <h4>Shop</h4>
+                    <div class="breadcrumb__links">
+                        <a href="@Url.Action("Index", "Home")">Home</a>
+                        <span>Shop</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+*@
+@await Html.PartialAsync("~/Views/Partial/Breadcrumb.cshtml")
+
+<!-- Breadcrumb Section End -->
+<!-- Shop Section Begin -->
+<section class="shop spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="shop__sidebar">
+                    <div class="shop__sidebar__search">
+                        <form action="@Url.Action("Index", "Shop")" method="post">
+                            <input type="text" placeholder="Search..." value="@ViewBag.SearchTerm" name="searchTerm">
+                            <button type="submit"><span class="icon_search"></span></button>
+                        </form>
+                    </div>
+                    <div class="shop__sidebar__accordion">
+                        <div class="accordion" id="accordionExample">
+                            @await Component.InvokeAsync("FilterComponent")
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="shop__product__option">
+                    <div class="row">
+                   
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="shop__product__option__left">
+                                <p>Showing @Model.Products.Count() of @Model.TotalPages page</p>
+
+                            </div>
+                        </div>
+                  
+                        @using (Html.BeginForm("Index", "Shop", FormMethod.Get))
+                        {
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="shop__product__option__right">
+                                    <p>Sort by Price:</p>
+                                    <select name="sortBy" onchange="this.form.submit()">
+                                        <option value="">Low To High</option>
+                                        <option value="range1" selected="@((string)ViewBag.SortBy == "range1")"> $0 - $55</option>
+                                        <option value="range2" selected="@((string)ViewBag.SortBy == "range2")"> $55 - $100</option>
+                                    </select>
+
+                                </div>
+                            </div>
+                        }
+
+
+                    </div>
+                </div>
+                <div class="row">
+                   
+                    @*@if (Model != null && Model.Count() > 0)*@
+                    @if (Model != null && Model.Products.Any())
+                    {
+                        @*@foreach (var product in Model)*@
+                        @foreach (var product in Model.Products)
+
+                        {
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                 @*   <div class="product__item__pic set-bg" data-setbg="../bootstrap/img/product/@product.ImageNameUrl">
+                                    </div>*@
+                                 <a href="@Url.Action("ProductDetail", new { id = product.ProductId })">
+                                     <div class="product__item__pic set-bg" data-setbg="../bootstrap/img/product/@product.ImageNameUrl"></div>
+                                 </a>
+                                 <div class="product__item__text">
+                                        <h6>@product.Name</h6>
+@*                                        <a href="#" class="add-cart">+ Add To Cart</a>
+*@                                        <h5>$ @product.Price</h5>
+@*                                        <a href="@Url.Action("ProductDetail", new { id = product.ProductId })">Details</a>
+*@                                        @if (!String.IsNullOrEmpty(product.Color))
+                                        {
+                                            <div class="product__color__select">
+                                                @if (product?.Color?.ToLower() == "blue")
+                                                {
+                                                    <label for="pc-4">
+                                                        <input type="radio" id="pc-4">
+                                                    </label>
+                                                }
+                                                else if (product?.Color?.ToLower() == "black")
+                                                {
+                                                    <label class="active black" for="pc-5">
+                                                        <input type="radio" id="pc-5">
+                                                    </label>
+                                                }
+                                                else if (product?.Color?.ToLower() == "yellow")
+                                                {
+                                                    <label class="grey" for="pc-6">
+                                                        <input type="radio" id="pc-6">
+                                                    </label>
+                                                }
+                                                else if (product?.Color?.ToLower() == "grey")
+                                                {
+                                                    <label class="grey" for="pc-6">
+                                                        <input type="radio" id="pc-6">
+                                                    </label>
+                                                }
+                                                else if (product?.Color?.ToLower() == "green")
+                                                {
+                                                    <label class="grey" for="pc-6">
+                                                        <input type="radio" id="pc-6">
+                                                    </label>
+                                                }
+                                                else if (product?.Color?.ToLower() == "pink")
+                                                {
+                                                    <label class="grey" for="pc-6">
+                                                        <input type="radio" id="pc-6">
+                                                    </label>
+                                                }
+                                                else if (product?.Color?.ToLower() == "purple")
+                                                {
+                                                    <label class="grey" for="pc-6">
+                                                        <input type="radio" id="pc-6">
+                                                    </label>
+                                                }
+                                                else if (product?.Color?.ToLower() == "red")
+                                                {
+                                                    <label class="grey" for="pc-6">
+                                                        <input type="radio" id="pc-6">
+                                                    </label>
+                                                }
+                                                else if (product?.Color?.ToLower() == "white")
+                                                {
+                                                    <label class="grey" for="pc-6">
+                                                        <input type="radio" id="pc-6">
+                                                    </label>
+                                                }
+
+                                            </div>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    }
+                    else
+                    {
+                        <div class="col-lg-12">
+                            <div class="product__item__text">
+                                <h6 style="text-align: center; color: red;">No Products Found</h6>
+
+                            </div>
+                        </div>
+                    }
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="product__pagination">
+                            @for (int i = 1; i <= Model.TotalPages; i++)
+                            {
+                                if (i == Model.CurrentPage)
+                                {
+                                    <a class="active" href="#">@i</a>
+                                }
+                                else
+                                {
+                                    <a href="@Url.Action("Index", "Shop", new { page = i })">@i</a>
+
+                                }
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Shop Section End -->

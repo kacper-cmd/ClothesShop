@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:WebsiteProjectMobile.ViewModels"
+             xmlns:model="clr-namespace:WebsideProjectMobile.Service.Reference"
+             Title="{Binding Title}"
+             x:Class="WebsiteProjectMobile.Views.ProductPage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Add" Command="{Binding AddItemCommand}" />
+    </ContentPage.ToolbarItems>
+
+
+    <ContentPage.Content>
+        <Grid VerticalOptions="CenterAndExpand">
+            <Frame BackgroundColor="Transparent" BorderColor="Gray" CornerRadius="5" Padding="10" Margin="20">
+                <RefreshView x:DataType="viewModels:ProductViewModel" Command="{Binding LoadItemsCommand}" IsRefreshing="{Binding IsBusy, Mode=TwoWay}">
+                    <CollectionView x:Name="ItemsListView" ItemsSource="{Binding Items}">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <StackLayout Padding="10" x:DataType="model:ProductForView">
+                                    <Label FontSize="Large" FontAttributes="Bold" Text="{Binding Description}"/>
+                                    <Label FontSize="Medium" Text="{Binding Cost, StringFormat='Cost: {0:C}'}" />
+                                    <StackLayout.GestureRecognizers>
+                                        <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding Source={RelativeSource AncestorType={x:Type viewModels:ProductViewModel}}, Path=ItemTapped}" CommandParameter="{Binding .}" />
+                                    </StackLayout.GestureRecognizers>
+                                </StackLayout>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </RefreshView>
+            </Frame>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
+

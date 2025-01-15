@@ -1,0 +1,85 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>List of Products </title>
+    <style>
+        /*tam wklej ten style "~/css/invoice-report.css"*/
+        body {
+            margin: 0px;
+            font-family: 'Segoe UI', Arial;
+        }
+
+        .invoice-head {
+            clear: both;
+            display: block;
+            padding: 10px;
+            margin-bottom: 40px;
+        }
+
+        .invoice-title {
+            background-color: navy;
+            color: white;
+            font-size: 20px;
+            padding: 10px;
+            width: 100%;
+        }
+
+        .invoice-to {
+            float: left;
+        }
+
+        .invoice-details {
+            float: right;
+        }
+
+        table {
+            clear: both;
+            border: 1px solid darkgray;
+            border-collapse: collapse;
+            margin: auto;
+        }
+
+        th {
+            background-color: navy;
+            color: white;
+        }
+
+        td, th {
+            border: 1px solid darkgray;
+            padding: 5px;
+        }
+
+        .numeric-cell {
+            text-align: right;
+        }
+
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+<body>
+
+
+
+    <table>
+        <tr>
+            <th>Product Id</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Description</th>
+            <th>Color</th>
+            <th>Category</th>
+        </tr>
+      
+
+    </table>
+</body>
+</html>

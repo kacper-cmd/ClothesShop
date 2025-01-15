@@ -1,0 +1,84 @@
+C:\Users\alexl\Desktop\Rags to Riches\RagsToRiches\Data\bin\Debug\net6.0\Data.deps.json
+C:\Users\alexl\Desktop\Rags to Riches\RagsToRiches\Data\bin\Debug\net6.0\Data.runtimeconfig.json
+C:\Users\alexl\Desktop\Rags to Riches\RagsToRiches\Data\bin\Debug\net6.0\Data.dll
+C:\Users\alexl\Desktop\Rags to Riches\RagsToRiches\Data\bin\Debug\net6.0\Data.pdb
+C:\Users\alexl\Desktop\Rags to Riches\RagsToRiches\Data\obj\Debug\net6.0\Data.csproj.AssemblyReference.cache
+C:\Users\alexl\Desktop\Rags to Riches\RagsToRiches\Data\obj\Debug\net6.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexl\Desktop\Rags to Riches\RagsToRiches\Data\obj\Debug\net6.0\Data.AssemblyInfoInputs.cache
+C:\Users\alexl\Desktop\Rags to Riches\RagsToRiches\Data\obj\Debug\net6.0\Data.AssemblyInfo.cs
+C:\Users\alexl\Desktop\Rags to Riches\RagsToRiches\Data\obj\Debug\net6.0\Data.csproj.CoreCompileInputs.cache
+C:\Users\alexl\Desktop\Rags to Riches\RagsToRiches\Data\obj\Debug\net6.0\Data.dll
+C:\Users\alexl\Desktop\Rags to Riches\RagsToRiches\Data\obj\Debug\net6.0\refint\Data.dll
+C:\Users\alexl\Desktop\Rags to Riches\RagsToRiches\Data\obj\Debug\net6.0\Data.pdb
+C:\Users\alexl\Desktop\Rags to Riches\RagsToRiches\Data\obj\Debug\net6.0\Data.genruntimeconfig.cache
+C:\Users\alexl\Desktop\Rags to Riches\RagsToRiches\Data\obj\Debug\net6.0\ref\Data.dll
+C:\Users\kacpe\Desktop\Projekty\Final\Rags-to-Riches---repo\Data\bin\Debug\net6.0\Data.deps.json
+C:\Users\kacpe\Desktop\Projekty\Final\Rags-to-Riches---repo\Data\bin\Debug\net6.0\Data.runtimeconfig.json
+C:\Users\kacpe\Desktop\Projekty\Final\Rags-to-Riches---repo\Data\bin\Debug\net6.0\Data.dll
+C:\Users\kacpe\Desktop\Projekty\Final\Rags-to-Riches---repo\Data\bin\Debug\net6.0\Data.pdb
+C:\Users\kacpe\Desktop\Projekty\Final\Rags-to-Riches---repo\Data\obj\Debug\net6.0\Data.csproj.AssemblyReference.cache
+C:\Users\kacpe\Desktop\Projekty\Final\Rags-to-Riches---repo\Data\obj\Debug\net6.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kacpe\Desktop\Projekty\Final\Rags-to-Riches---repo\Data\obj\Debug\net6.0\Data.AssemblyInfoInputs.cache
+C:\Users\kacpe\Desktop\Projekty\Final\Rags-to-Riches---repo\Data\obj\Debug\net6.0\Data.AssemblyInfo.cs
+C:\Users\kacpe\Desktop\Projekty\Final\Rags-to-Riches---repo\Data\obj\Debug\net6.0\Data.csproj.CoreCompileInputs.cache
+C:\Users\kacpe\Desktop\Projekty\Final\Rags-to-Riches---repo\Data\obj\Debug\net6.0\Data.dll
+C:\Users\kacpe\Desktop\Projekty\Final\Rags-to-Riches---repo\Data\obj\Debug\net6.0\refint\Data.dll
+C:\Users\kacpe\Desktop\Projekty\Final\Rags-to-Riches---repo\Data\obj\Debug\net6.0\Data.pdb
+C:\Users\kacpe\Desktop\Projekty\Final\Rags-to-Riches---repo\Data\obj\Debug\net6.0\Data.genruntimeconfig.cache
+C:\Users\kacpe\Desktop\Projekty\Final\Rags-to-Riches---repo\Data\obj\Debug\net6.0\ref\Data.dll
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\Data\bin\Debug\net6.0\Data.deps.json
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\Data\bin\Debug\net6.0\Data.runtimeconfig.json
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\Data\bin\Debug\net6.0\Data.dll
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\Data\bin\Debug\net6.0\Data.pdb
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\Data\obj\Debug\net6.0\Data.csproj.AssemblyReference.cache
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\Data\obj\Debug\net6.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\Data\obj\Debug\net6.0\Data.AssemblyInfoInputs.cache
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\Data\obj\Debug\net6.0\Data.AssemblyInfo.cs
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\Data\obj\Debug\net6.0\Data.csproj.CoreCompileInputs.cache
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\Data\obj\Debug\net6.0\Data.dll
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\Data\obj\Debug\net6.0\refint\Data.dll
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\Data\obj\Debug\net6.0\Data.pdb
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\Data\obj\Debug\net6.0\Data.genruntimeconfig.cache
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\Data\obj\Debug\net6.0\ref\Data.dll
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobile\Rags-to-Riches\Data\bin\Debug\net6.0\Data.deps.json
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobile\Rags-to-Riches\Data\bin\Debug\net6.0\Data.runtimeconfig.json
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobile\Rags-to-Riches\Data\bin\Debug\net6.0\Data.dll
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobile\Rags-to-Riches\Data\bin\Debug\net6.0\Data.pdb
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobile\Rags-to-Riches\Data\obj\Debug\net6.0\Data.csproj.AssemblyReference.cache
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobile\Rags-to-Riches\Data\obj\Debug\net6.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobile\Rags-to-Riches\Data\obj\Debug\net6.0\Data.AssemblyInfoInputs.cache
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobile\Rags-to-Riches\Data\obj\Debug\net6.0\Data.AssemblyInfo.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobile\Rags-to-Riches\Data\obj\Debug\net6.0\Data.csproj.CoreCompileInputs.cache
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobile\Rags-to-Riches\Data\obj\Debug\net6.0\Data.dll
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobile\Rags-to-Riches\Data\obj\Debug\net6.0\refint\Data.dll
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobile\Rags-to-Riches\Data\obj\Debug\net6.0\Data.pdb
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobile\Rags-to-Riches\Data\obj\Debug\net6.0\Data.genruntimeconfig.cache
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobile\Rags-to-Riches\Data\obj\Debug\net6.0\ref\Data.dll
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\Data\bin\Debug\net6.0\Data.deps.json
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\Data\bin\Debug\net6.0\Data.runtimeconfig.json
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\Data\bin\Debug\net6.0\Data.dll
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\Data\bin\Debug\net6.0\Data.pdb
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\Data\obj\Debug\net6.0\Data.csproj.AssemblyReference.cache
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\Data\obj\Debug\net6.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\Data\obj\Debug\net6.0\Data.AssemblyInfoInputs.cache
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\Data\obj\Debug\net6.0\Data.AssemblyInfo.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\Data\obj\Debug\net6.0\Data.csproj.CoreCompileInputs.cache
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\Data\obj\Debug\net6.0\Data.dll
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\Data\obj\Debug\net6.0\refint\Data.dll
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\Data\obj\Debug\net6.0\Data.pdb
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\Data\obj\Debug\net6.0\Data.genruntimeconfig.cache
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\Data\obj\Debug\net6.0\ref\Data.dll
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\Data\bin\Debug\net6.0\Data.deps.json
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\Data\bin\Debug\net6.0\Data.runtimeconfig.json
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\Data\bin\Debug\net6.0\Data.dll
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\Data\bin\Debug\net6.0\Data.pdb
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\Data\obj\Debug\net6.0\Data.csproj.AssemblyReference.cache
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\Data\obj\Debug\net6.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\Data\obj\Debug\net6.0\Data.AssemblyInfoInputs.cache
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\Data\obj\Debug\net6.0\Data.AssemblyInfo.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\Data\obj\Debug\net6.0\Data.csproj.CoreCompileInputs.cache
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\Data\obj\Debug\net6.0\Data.dll
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\Data\obj\Debug\net6.0\refint\Data.dll
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\Data\obj\Debug\net6.0\Data.pdb
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\Data\obj\Debug\net6.0\Data.genruntimeconfig.cache
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\Data\obj\Debug\net6.0\ref\Data.dll

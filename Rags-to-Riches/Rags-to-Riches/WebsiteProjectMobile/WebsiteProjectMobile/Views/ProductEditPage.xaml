@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WebsiteProjectMobile.Views.ProductEditPage">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Entry" x:Key="RoundedEntryStyle">
+                <Setter Property="BackgroundColor" Value="Azure" />
+                <Setter Property="TextColor" Value="Black" />
+                <Setter Property="PlaceholderColor" Value="Gray" />
+                <Setter Property="FontSize" Value="16" />
+                <Setter Property="HeightRequest" Value="40" />
+            </Style>
+            <Style TargetType="Frame" x:Key="RoundedEntryFrameStyle">
+                <Setter Property="CornerRadius" Value="10" />
+                <Setter Property="Padding" Value="5" />
+            </Style>
+            <Style TargetType="Label" x:Key="ModernLabelStyle">
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="BackgroundColor" Value="#879ec4" />
+                <Setter Property="FontSize" Value="18" />
+                <Setter Property="HorizontalTextAlignment" Value="Center" />
+                <Setter Property="VerticalTextAlignment" Value="Center" />
+                <Setter Property="FontAttributes" Value="Bold" />
+                <Setter Property="HeightRequest" Value="40" />
+                <Setter Property="Margin" Value="10" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+
+    <ContentPage.Content>
+        <Frame BorderColor="Gray"
+               CornerRadius="10"
+               Padding="30" Margin="10">
+            <StackLayout>
+                <Label Text="Edit Product" Style="{StaticResource ModernLabelStyle}" />
+
+                <BoxView Color="Gray"
+                         HeightRequest="2"
+                         HorizontalOptions="Fill" />
+
+                <StackLayout Padding="10">
+                    <Label Text="Product Description" />
+                    <Frame Style="{StaticResource RoundedEntryFrameStyle}">
+                        <Entry Placeholder="Enter product description" Style="{StaticResource RoundedEntryStyle}"
+                               Text="{Binding Description, Mode=TwoWay}" />
+                    </Frame>
+                </StackLayout>
+
+                <StackLayout Padding="10">
+                    <Label Text="Price" />
+                    <Frame Style="{StaticResource RoundedEntryFrameStyle}">
+                        <Entry Placeholder="Enter price" Style="{StaticResource RoundedEntryStyle}" Keyboard="Numeric"
+                               Text="{Binding Cost, Mode=TwoWay}" />
+                    </Frame>
+                </StackLayout>
+
+                <StackLayout Padding="10">
+                    <Label Text="Image URL" />
+                    <Frame Style="{StaticResource RoundedEntryFrameStyle}">
+                        <Entry Placeholder="Enter image URL" Style="{StaticResource RoundedEntryStyle}"
+                               Text="{Binding ImageUrl, Mode=TwoWay}" />
+                    </Frame>
+                </StackLayout>
+
+                <StackLayout Padding="10">
+                    <Label Text="Category" />
+                    <Frame Style="{StaticResource RoundedEntryFrameStyle}">
+                        <Picker ItemsSource="{Binding Categories}" SelectedItem="{Binding SelectedCategory}" Title="Select Category" />
+                    </Frame>
+                </StackLayout>
+
+                <StackLayout Padding="10">
+                    <Label Text="Size" />
+                    <Frame Style="{StaticResource RoundedEntryFrameStyle}">
+                        <Picker ItemsSource="{Binding Sizes}" SelectedItem="{Binding SelectedSize}" Title="Select Size" />
+                    </Frame>
+                </StackLayout>
+
+                <Button Text="Save" Command="{Binding SaveCommand}" BackgroundColor="Gray" BorderColor="Gray" BorderWidth="1" CornerRadius="10" WidthRequest="20" HeightRequest="30" />
+            </StackLayout>
+        </Frame>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,74 @@
+﻿@model ClothesShop.Data.Data.CMS.Banner
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+
+
+<div class="container-fluid py-4">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card">
+
+                <div class="card-header pb-0 pt-3 bg-transparent">
+                    <h1>Are you sure to delete:  </h1>
+                    <h2>@Html.DisplayFor(model => model.Title) ?</h2>
+
+                </div>
+
+                <div class="card-body">
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <form asp-action="Delete">
+                                    <input type="hidden" asp-for="Id" />
+                                    <a asp-action="Index" class="btn btn-primary active" role="button" aria-pressed="true">Back to List</a>
+                                    <a role="button" class="btn btn-danger active" data-bs-toggle="modal" data-bs-target="#modal-default"><span>Yes</span><i class="bi bi-trash"></i></a>
+                                    <div class="modal fade" id="modal-default" tabindex="-1" role="dialog" aria-labelledby="modal-default" aria-hidden="true">
+                                        <div class="modal-dialog modal- modal-dialog-centered modal-" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h6 class="modal-title" id="modal-title-default">Delete</h6>
+
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p>Are you sure to delete: @Html.DisplayFor(model => model.Title) </p>
+
+                                                </div>
+                                                <div class="modal-footer">
+
+                                                    <input type="submit" value="Delete" class="btn btn-danger btn-lg active" />
+                                                    <button type="button" class="btn btn-link  ml-auto" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+
+
+
+                                </form>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

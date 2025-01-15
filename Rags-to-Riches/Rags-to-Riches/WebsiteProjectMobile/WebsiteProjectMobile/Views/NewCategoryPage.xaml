@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Shell.PresentationMode="ModalAnimated"
+             Title="{Binding Title}"
+             x:Class="WebsiteProjectMobile.Views.NewCategoryPage">
+
+    <ContentPage.Content>
+            <Grid VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                <Frame BorderColor="Gray" CornerRadius="10" Padding="10" Margin="20">
+                    <StackLayout Spacing="10" Padding="10">
+                        <Label Text="Order Summary" FontSize="Title" />
+                        <Label Text="Name" FontSize="Medium" />
+                    <Entry Text="{Binding Name, Mode=TwoWay}" />
+                    <Label Text="{Binding NameError}" TextColor="Red" />
+                    <Label Text="IsActive" FontSize="Medium" />
+                    <Switch IsToggled="{Binding IsActive}" />
+                    <StackLayout Orientation="Horizontal">
+                        <Button TextColor="Black"  Text="Cancel" Command="{Binding CancelCommand}" HorizontalOptions="FillAndExpand"></Button>
+                        <Button TextColor="Black"  Text="Save" Command="{Binding SaveCommand}" HorizontalOptions="FillAndExpand"></Button>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
+
+<!--<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              Shell.PresentationMode="ModalAnimated"
+             Title="{Binding Title}"
+             x:Class="WebsiteProjectMobile.Views.NewCategoryPage">
+    <ContentPage.Content>
+        <StackLayout Spacing="3" Padding="15">
+            <Label Text="Id" FontSize="Medium" />
+            <Label Text="Name" FontSize="Medium" />
+            <Entry Text="{Binding Name, Mode=TwoWay}" />
+            <Label Text="{Binding NameError}" TextColor="Red" />
+            <Label Text="IsActive" FontSize="Medium" />
+            <Switch IsToggled="{Binding IsActive}" />
+            <StackLayout Orientation="Horizontal">
+                <Button Text="Cancel" Command="{Binding CancelCommand}" HorizontalOptions="FillAndExpand"></Button>
+                <Button Text="Save" Command="{Binding SaveCommand}" HorizontalOptions="FillAndExpand"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>-->

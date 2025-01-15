@@ -1,0 +1,201 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ClothesShop.Intranet
+build_property.RootNamespace = ClothesShop.Intranet
+build_property.ProjectDir = C:\Users\kacpe\Desktop\ZajeciaSEM6\website\Rags-to-Riches\ClothesShop\ClothesShop.Intranet\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\kacpe\Desktop\ZajeciaSEM6\website\Rags-to-Riches\ClothesShop\ClothesShop.Intranet
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/Banner/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFubmVyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/Banner/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFubmVyXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/Banner/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFubmVyXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/Banner/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFubmVyXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/Banner/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFubmVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/BufferedFileUpload/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVmZmVyZWRGaWxlVXBsb2FkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/Category/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/Category/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/Category/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/MenuItem/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudUl0ZW1cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/MenuItem/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudUl0ZW1cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/MenuItem/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudUl0ZW1cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/MenuItem/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudUl0ZW1cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/MenuItem/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudUl0ZW1cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/OrderProduct/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJQcm9kdWN0XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/OrderProduct/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJQcm9kdWN0XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/OrderProduct/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJQcm9kdWN0XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/OrderProduct/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJQcm9kdWN0XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/OrderProduct/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJQcm9kdWN0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/Order/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/Order/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/Order/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/Order/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/Order/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/Products/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/Products/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/Products/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/Products/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/Product/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/Product/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/Product/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/Product/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/Product/Export.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxFeHBvcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/Product/ListOfProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxMaXN0T2ZQcm9kdWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/Shared/Components/DashboardStatsComponent/DashboardStatsComponent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRGFzaGJvYXJkU3RhdHNDb21wb25lbnRcRGFzaGJvYXJkU3RhdHNDb21wb25lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/website/Rags-to-Riches/ClothesShop/ClothesShop.Intranet/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-kghs08mzpj

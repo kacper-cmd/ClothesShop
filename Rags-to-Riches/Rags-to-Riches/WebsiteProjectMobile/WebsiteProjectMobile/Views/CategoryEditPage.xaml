@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:WebsiteProjectMobile.ViewModels"
+             x:Class="WebsiteProjectMobile.Views.CategoryEditPage">
+
+    <ContentPage.BindingContext>
+        <viewModels:CategoryEditViewModel />
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+            <Label Text="Category Name" FontAttributes="Bold" />
+            <Entry Text="{Binding Name, Mode=TwoWay}" />
+            <Switch IsToggled="{Binding IsActive}" />
+            <StackLayout Orientation="Horizontal">
+                <Button TextColor="Black" Text="Cancel" Command="{Binding CancelCommand}" HorizontalOptions="FillAndExpand"></Button>
+                <Button TextColor="Black" Text="Save" Command="{Binding SaveCommand}" HorizontalOptions="FillAndExpand"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+

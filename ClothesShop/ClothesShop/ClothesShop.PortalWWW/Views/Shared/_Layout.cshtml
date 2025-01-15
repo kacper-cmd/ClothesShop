@@ -1,0 +1,278 @@
+﻿@*<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ClothesShop.PortalWWW</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ClothesShop.PortalWWW.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ClothesShop.PortalWWW</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2023 - ClothesShop.PortalWWW - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+*@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Male_Fashion Template">
+    <meta name="keywords" content="Male_Fashion, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Thift Shop </title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap"
+          rel="stylesheet">
+
+    <!-- Css Styles -->
+  
+    <link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/bootstrap/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/bootstrap/css/elegant-icons.css" rel="stylesheet" type="text/css" />
+    <link href="~/bootstrap/css/magnific-popup.css" rel="stylesheet" type="text/css" />
+    <link href="~/bootstrap/css/nice-select.css" rel="stylesheet" type="text/css" />
+    <link href="~/bootstrap/css/owl.carousel.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/bootstrap/css/slicknav.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/bootstrap/css/style.css" rel="stylesheet" type="text/css" />
+    <style>
+       /* #btn-back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: none;
+        }*/
+      /*  .back-to-top {
+            background: none;
+            margin: 0;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            width: 70px;
+            height: 70px;
+            z-index: 100;
+            display: none;
+            text-decoration: none;
+            color: #fc7700;
+            background-color: transparent;
+        }*/
+        .back-to-top {
+            background: none;
+            margin: 0;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            width: 70px;
+            height: 70px;
+            z-index: 100;
+            display: none;
+            text-decoration: none;
+    
+      
+            color: #000000;
+           
+        }
+
+        .back-to-top:hover {
+         
+            color: #000;
+        }
+            .back-to-top i {
+                font-size: 60px;
+            }
+    </style>
+</head>
+
+<body>
+<!-- Page Preloder -->
+<div id="preloder">
+    <div class="loader"></div>
+</div>
+
+    @await Html.PartialAsync("~/Views/Partial/MenuItem.cshtml", ( IEnumerable<ClothesShop.Data.Data.CMS.MenuItem>)  ViewBag.ModelMenuItem))
+
+    
+        @RenderBody()
+
+
+<!-- Footer Section Begin -->
+    @await Html.PartialAsync("~/Views/Partial/Footer.cshtml", ( IEnumerable<ClothesShop.Data.Data.CMS.Footer>)  ViewBag.ModelFooter))
+
+
+@*<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="footer__about">
+                    <div class="footer__logo">
+                        <a href="#"><img src="~/bootstrap/img/footer-logo.png" alt=""></a>
+                    </div>
+                        <p>Shop smart, shop thrift: Save money and the planet!</p>
+                    <a href="#"><img src="~/bootstrap/img/payment.png" alt=""></a>
+                </div>
+            </div>
+            <div class="col-lg-2 offset-lg-1 col-md-6 col-sm-6">
+                <div class="footer__widget">
+                    <h6>Shopping</h6>
+                    <ul>
+                        <li><a href="#">Clothing Store</a></li>
+                        <li><a href="#">Trending Shoes</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Sale</a></li>
+                    </ul>
+                </div>
+            </div>
+       
+            <div class="col-lg-3 offset-lg-1 col-md-6 col-sm-6">
+                <div class="footer__widget">
+                    <h6>NewLetter</h6>
+                    <div class="footer__newslatter">
+                        <p>Be the first to know about new arrivals, look books, sales & promos!</p>
+                        <form action="#">
+                            <input type="text" placeholder="Your email">
+                            <button type="submit"><span class="icon_mail_alt"></span></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="footer__copyright__text">
+                    <p>
+                        Copyright © @DateTime.Now.Year -
+                      
+                        All rights reserved | Made by Kacper Obrzut
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>*@
+<!-- Footer Section End -->
+
+<!-- Search Begin -->
+@*<div class="search-model">
+    <div class="h-100 d-flex align-items-center justify-content-center">
+        <div class="search-close-switch">+</div>
+        <form class="search-model-form">
+            <input type="text" id="search-input" placeholder="Search here.....">
+        </form>
+    </div>
+</div>*@
+    @await Html.PartialAsync("~/Views/Partial/SearchPartial.cshtml")
+
+
+
+    <!-- Back to top button -->
+@*  <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+<a href="#" class="back-to-top" style="display: inline;">
+    <i class="fa fa-arrow-circle-up"></i>
+</a>
+*@
+<!-- Search End -->
+<!-- Js Plugins -->
+<script src="~/bootstrap/js/jquery-3.3.1.min.js"></script>
+    <script src="~/bootstrap/js/bootstrap.min.js"></script>
+<script src="~/bootstrap/js/jquery.nice-select.min.js"></script>
+<script src="~/bootstrap/js/jquery.nicescroll.min.js"></script>
+<script src="~/bootstrap/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/bootstrap/js/jquery.countdown.min.js"></script>
+<script src="~/bootstrap/js/jquery.slicknav.js"></script>
+<script src="~/bootstrap/js/mixitup.min.js"></script>
+    <script src="~/bootstrap/js/owl.carousel.min.js"></script>
+    <script src="~/bootstrap/js/main.js"></script>
+<script>
+        ////Get the button
+        //let mybutton = document.getElementById("btn-back-to-top");
+
+        //// When the user scrolls down 20px from the top of the document, show the button
+        //window.onscroll = function () {
+        //    scrollFunction();
+        //};
+
+        //function scrollFunction() {
+        //    if (
+        //        document.body.scrollTop > 20 ||
+        //        document.documentElement.scrollTop > 20
+        //    ) {
+        //        mybutton.style.display = "block";
+        //    } else {
+        //        mybutton.style.display = "none";
+        //    }
+        //}
+        //// When the user clicks on the button, scroll to the top of the document
+        //mybutton.addEventListener("click", backToTop);
+
+        //function backToTop() {
+        //    document.body.scrollTop = 0;
+        //    document.documentElement.scrollTop = 0;
+        //}
+        
+        jQuery(document).ready(function () {
+            var offset = 250;
+            var duration = 300;
+            jQuery(window).scroll(function () {
+                if (jQuery(this).scrollTop() > offset) {
+                    jQuery('.back-to-top').fadeIn(duration);
+                } else {
+                    jQuery('.back-to-top').fadeOut(duration);
+                }
+            });
+            jQuery('.back-to-top').click(function (event) {
+               
+                event.preventDefault();
+                jQuery('html, body').animate({ scrollTop: 0 }, duration);
+                return false;
+            })
+        });
+</script>
+
+<script src="~/js/site.js" asp-append-version="true"></script>
+@await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

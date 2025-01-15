@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:viewModels="clr-namespace:WebsiteProjectMobile.ViewModels"
+             xmlns:model="clr-namespace:WebsideProjectMobile.Service.Reference"
+             x:Class="WebsiteProjectMobile.Views.OrderPage">
+
+    <ContentPage.Content>
+        <Grid VerticalOptions="CenterAndExpand">
+            <Frame BackgroundColor="Transparent" BorderColor="Gray" CornerRadius="5" Padding="10" Margin="20">
+                <RefreshView x:DataType="viewModels:OrderViewModel" Command="{Binding LoadItemsCommand}" IsRefreshing="{Binding IsBusy, Mode=TwoWay}">
+                    <CollectionView x:Name="ItemsListView" ItemsSource="{Binding Items}">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <StackLayout Padding="10" x:DataType="model:OrderForView">
+                                    <Label Text="Order ID" FontAttributes="Bold" />
+                                    <Label Text="{Binding OrderId}" />
+
+                                    <Label Text="User ID" FontAttributes="Bold" />
+                                    <Label Text="{Binding UserId}" />
+
+                                    <Label Text="Total Amount" FontAttributes="Bold" />
+                                    <Label Text="{Binding TotalCost}" />
+
+                                    <Label Text="Order Date" FontAttributes="Bold" />
+                                    <Label Text="{Binding OrderDate, StringFormat='{0:MM/dd/yyyy}'}" />
+
+
+                                    <Label Text="Delivery Date" FontAttributes="Bold" />
+                                    <Label Text="{Binding DeliveryDate, StringFormat='{0:MM/dd/yyyy}'}" />
+
+                                </StackLayout>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </RefreshView>
+            </Frame>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

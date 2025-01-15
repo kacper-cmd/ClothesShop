@@ -1,0 +1,138 @@
+C:\Users\alexl\Desktop\Rags to Riches\RagsToRiches\WebsiteProjectMobile\WebsiteProjectMobile\bin\Debug\netstandard2.0\WebsiteProjectMobile.deps.json
+C:\Users\alexl\Desktop\Rags to Riches\RagsToRiches\WebsiteProjectMobile\WebsiteProjectMobile\bin\Debug\netstandard2.0\WebsiteProjectMobile.dll
+C:\Users\alexl\Desktop\Rags to Riches\RagsToRiches\WebsiteProjectMobile\WebsiteProjectMobile\bin\Debug\netstandard2.0\WebsiteProjectMobile.pdb
+C:\Users\alexl\Desktop\Rags to Riches\RagsToRiches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\WebsiteProjectMobile.csproj.AssemblyReference.cache
+C:\Users\alexl\Desktop\Rags to Riches\RagsToRiches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\WebsiteProjectMobile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexl\Desktop\Rags to Riches\RagsToRiches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\alexl\Desktop\Rags to Riches\RagsToRiches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\alexl\Desktop\Rags to Riches\RagsToRiches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\alexl\Desktop\Rags to Riches\RagsToRiches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\alexl\Desktop\Rags to Riches\RagsToRiches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\alexl\Desktop\Rags to Riches\RagsToRiches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\alexl\Desktop\Rags to Riches\RagsToRiches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\alexl\Desktop\Rags to Riches\RagsToRiches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\WebsiteProjectMobile.AssemblyInfoInputs.cache
+C:\Users\alexl\Desktop\Rags to Riches\RagsToRiches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\WebsiteProjectMobile.AssemblyInfo.cs
+C:\Users\alexl\Desktop\Rags to Riches\RagsToRiches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\WebsiteProjectMobile.csproj.CoreCompileInputs.cache
+C:\Users\alexl\Desktop\Rags to Riches\RagsToRiches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\alexl\Desktop\Rags to Riches\RagsToRiches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\WebsiteProjectMobile.dll
+C:\Users\alexl\Desktop\Rags to Riches\RagsToRiches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\refint\WebsiteProjectMobile.dll
+C:\Users\alexl\Desktop\Rags to Riches\RagsToRiches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\WebsiteProjectMobile.pdb
+C:\Users\alexl\Desktop\Rags to Riches\RagsToRiches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\ref\WebsiteProjectMobile.dll
+C:\Users\kacpe\Desktop\Projekty\Final\Rags-to-Riches---repo\WebsiteProjectMobile\WebsiteProjectMobile\bin\Debug\netstandard2.0\WebsiteProjectMobile.deps.json
+C:\Users\kacpe\Desktop\Projekty\Final\Rags-to-Riches---repo\WebsiteProjectMobile\WebsiteProjectMobile\bin\Debug\netstandard2.0\WebsiteProjectMobile.dll
+C:\Users\kacpe\Desktop\Projekty\Final\Rags-to-Riches---repo\WebsiteProjectMobile\WebsiteProjectMobile\bin\Debug\netstandard2.0\WebsiteProjectMobile.pdb
+C:\Users\kacpe\Desktop\Projekty\Final\Rags-to-Riches---repo\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\WebsiteProjectMobile.csproj.AssemblyReference.cache
+C:\Users\kacpe\Desktop\Projekty\Final\Rags-to-Riches---repo\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\WebsiteProjectMobile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kacpe\Desktop\Projekty\Final\Rags-to-Riches---repo\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\kacpe\Desktop\Projekty\Final\Rags-to-Riches---repo\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\kacpe\Desktop\Projekty\Final\Rags-to-Riches---repo\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\kacpe\Desktop\Projekty\Final\Rags-to-Riches---repo\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\CategoryDetailPage.xaml.g.cs
+C:\Users\kacpe\Desktop\Projekty\Final\Rags-to-Riches---repo\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\CategoryPage.xaml.g.cs
+C:\Users\kacpe\Desktop\Projekty\Final\Rags-to-Riches---repo\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\kacpe\Desktop\Projekty\Final\Rags-to-Riches---repo\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\kacpe\Desktop\Projekty\Final\Rags-to-Riches---repo\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\kacpe\Desktop\Projekty\Final\Rags-to-Riches---repo\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\NewCategoryPage.xaml.g.cs
+C:\Users\kacpe\Desktop\Projekty\Final\Rags-to-Riches---repo\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\kacpe\Desktop\Projekty\Final\Rags-to-Riches---repo\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\WebsiteProjectMobile.AssemblyInfoInputs.cache
+C:\Users\kacpe\Desktop\Projekty\Final\Rags-to-Riches---repo\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\WebsiteProjectMobile.AssemblyInfo.cs
+C:\Users\kacpe\Desktop\Projekty\Final\Rags-to-Riches---repo\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\WebsiteProjectMobile.csproj.CoreCompileInputs.cache
+C:\Users\kacpe\Desktop\Projekty\Final\Rags-to-Riches---repo\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\kacpe\Desktop\Projekty\Final\Rags-to-Riches---repo\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\WebsiteProjectMobile.dll
+C:\Users\kacpe\Desktop\Projekty\Final\Rags-to-Riches---repo\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\refint\WebsiteProjectMobile.dll
+C:\Users\kacpe\Desktop\Projekty\Final\Rags-to-Riches---repo\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\WebsiteProjectMobile.pdb
+C:\Users\kacpe\Desktop\Projekty\Final\Rags-to-Riches---repo\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\ref\WebsiteProjectMobile.dll
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\WebsiteProjectMobile\WebsiteProjectMobile\bin\Debug\netstandard2.0\WebsiteProjectMobile.deps.json
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\WebsiteProjectMobile\WebsiteProjectMobile\bin\Debug\netstandard2.0\WebsiteProjectMobile.dll
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\WebsiteProjectMobile\WebsiteProjectMobile\bin\Debug\netstandard2.0\WebsiteProjectMobile.pdb
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\WebsiteProjectMobile.csproj.AssemblyReference.cache
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\WebsiteProjectMobile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\CartView.xaml.g.cs
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\CategoryEditPage.xaml.g.cs
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\CategoryPage.xaml.g.cs
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\NewCategoryPage.xaml.g.cs
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\NewProductPage.xaml.g.cs
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\OrderPage.xaml.g.cs
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\ProductDetailPage.xaml.g.cs
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\ProductEditPage.xaml.g.cs
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\ProductPage.xaml.g.cs
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\WebsiteProjectMobile.AssemblyInfoInputs.cache
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\WebsiteProjectMobile.AssemblyInfo.cs
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\WebsiteProjectMobile.csproj.CoreCompileInputs.cache
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\WebsiteProjectMobile.dll
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\refint\WebsiteProjectMobile.dll
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\WebsiteProjectMobile.pdb
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\ref\WebsiteProjectMobile.dll
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\OrderDetailPage.xaml.g.cs
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\EditOrderStatus.xaml.g.cs
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\OrderStatusPage.xaml.g.cs
+C:\Users\kacpe\OneDrive\Pulpit\ZajeciaSEM6\Rags-to-Riches---repo-master\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\OrderSummaryPage.xaml.g.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\bin\Debug\netstandard2.0\WebsiteProjectMobile.deps.json
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\bin\Debug\netstandard2.0\WebsiteProjectMobile.dll
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\bin\Debug\netstandard2.0\WebsiteProjectMobile.pdb
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\WebsiteProjectMobile.csproj.AssemblyReference.cache
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\WebsiteProjectMobile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\CategoryEditPage.xaml.g.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\CategoryPage.xaml.g.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\NewCategoryPage.xaml.g.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\NewProductPage.xaml.g.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\OrderDetailPage.xaml.g.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\OrderPage.xaml.g.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\OrderSummaryPage.xaml.g.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\ProductDetailPage.xaml.g.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\ProductEditPage.xaml.g.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\ProductPage.xaml.g.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\WebsiteProjectMobile.AssemblyInfoInputs.cache
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\WebsiteProjectMobile.AssemblyInfo.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\WebsiteProjectMobile.csproj.CoreCompileInputs.cache
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\WebsiteProjectMobile.dll
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\refint\WebsiteProjectMobile.dll
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\WebsiteProjectMobile.pdb
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\ref\WebsiteProjectMobile.dll
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\CartPage.xaml.g.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\WebsiteProjectMobile.csproj.AssemblyReference.cache
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\WebsiteProjectMobile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\CartPage.xaml.g.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\CategoryEditPage.xaml.g.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\CategoryPage.xaml.g.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\NewCategoryPage.xaml.g.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\NewProductPage.xaml.g.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\OrderDetailPage.xaml.g.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\OrderPage.xaml.g.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\OrderSummaryPage.xaml.g.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\ProductDetailPage.xaml.g.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\ProductEditPage.xaml.g.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\Views\ProductPage.xaml.g.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\WebsiteProjectMobile.AssemblyInfoInputs.cache
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\WebsiteProjectMobile.AssemblyInfo.cs
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\WebsiteProjectMobile.csproj.CoreCompileInputs.cache
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\WebsiteProjectMobile.dll
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\refint\WebsiteProjectMobile.dll
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\WebsiteProjectMobile.pdb
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\bin\Debug\netstandard2.0\WebsiteProjectMobile.deps.json
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\bin\Debug\netstandard2.0\WebsiteProjectMobile.dll
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\bin\Debug\netstandard2.0\WebsiteProjectMobile.pdb
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\kacpe\Desktop\ZajeciaSEM6\mobileproject\new\Rags-to-Riches\WebsiteProjectMobile\WebsiteProjectMobile\obj\Debug\netstandard2.0\ref\WebsiteProjectMobile.dll

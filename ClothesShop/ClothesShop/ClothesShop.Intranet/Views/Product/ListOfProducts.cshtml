@@ -1,0 +1,104 @@
+﻿@model IEnumerable<ClothesShop.Data.Data.Shop.Product>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>List of Products </title>
+    <link rel="stylesheet" href="@Url.Content("~/css/invoice-report.css")" />
+    <style>
+        /*tam wklej ten style "~/css/invoice-report.css"*/
+        body {
+            margin: 0px;
+            font-family: 'Segoe UI', Arial;
+        }
+
+        .invoice-head {
+            clear: both;
+            display: block;
+            padding: 10px;
+            margin-bottom: 40px;
+        }
+
+        .invoice-title {
+            background-color: navy;
+            color: white;
+            font-size: 20px;
+            padding: 10px;
+            width: 100%;
+        }
+
+        .invoice-to {
+            float: left;
+        }
+
+        .invoice-details {
+            float: right;
+        }
+
+        table {
+            clear: both;
+            border: 1px solid darkgray;
+            border-collapse: collapse;
+            margin: auto;
+        }
+
+        th {
+            background-color: navy;
+            color: white;
+        }
+
+        td, th {
+            border: 1px solid darkgray;
+            padding: 5px;
+        }
+
+        .numeric-cell {
+            text-align: right;
+        }
+
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+<body>
+    <div class="invoice-title">
+        List of Products
+    </div>
+
+   
+
+    <table>
+        <tr>
+            <th>Product Id</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Description</th>
+            <th>Color</th>
+            <th>Category</th>
+        </tr>
+        @foreach (var line in Model)
+        {
+            <tr>
+                <td>@line.ProductId</td>
+                <td class="numeric-cell">@line.Name</td>
+                <td class="numeric-cell">@line.Price.ToString("0.00") EUR</td>
+                <td class="numeric-cell">@line.Description</td>
+                <td class="numeric-cell">@line.Color</td>
+                <td class="numeric-cell">@line.Category.Name</td>
+                @* <td class="numeric-cell">@line.Amount</td>
+            <td class="numeric-cell">@line.Net.ToString("0.00") EUR</td>
+            <td class="numeric-cell">@line.VatPercent%</td>
+            <td class="numeric-cell">@line.Total.ToString("0.00") EUR</td>*@
+            </tr>
+        }
+
+    </table>
+</body>
+</html>

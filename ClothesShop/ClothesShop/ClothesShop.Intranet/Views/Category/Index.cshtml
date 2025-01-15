@@ -1,0 +1,299 @@
+﻿@model IEnumerable<ClothesShop.Data.Data.Shop.Category>
+
+@{
+    ViewData["Title"] = "Index";
+}
+@*
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsActive)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImageNameUrl)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsActive)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ImageNameUrl)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.CategoryId" class="btn btn-success"><i class="bi bi-pencil"></i></a>
+                <a asp-action="Details" asp-route-id="@item.CategoryId" class="btn btn-primary"><i class="bi bi-eye"></i></a>
+                <a asp-action="Delete" asp-route-id="@item.CategoryId" class="btn btn-danger"><i class="bi bi-trash"></i></a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+*@
+
+
+@*<div class="card shadow-lg mx-2 card-profile-bottom">
+    <div class="card-body p-2">
+        <div class="row gx-2">
+            <div class="col-auto">
+                <div class="avatar avatar-xl position-relative">
+                   
+                </div>
+            </div>
+            <div class="col-auto my-auto">
+                <div class="h-100">
+                    <h1 class="display">Categories</h1>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>*@
+
+
+@*<div class="row mt-4 mx-2">
+<div class="col-lg-7 mb-lg-0 mb-4">
+    <div class="card z-index-2 h-100">
+        <div class="card-header pb-0 pt-3 bg-transparent">
+                <h1 class="display">Categories</h1>
+            <a asp-action="Create" class="btn btn-icon btn-3 btn-primary active" type="button">
+    <span class="btn-inner--text">Create New</span>
+            </a>
+        </div>
+    
+    </div>
+</div>
+</div>*@
+
+
+<div class="container-fluid py-4">
+    <div class="row mt-2">
+        <div class="card mb-8">
+                <div class="card-header pb-0 pt-3 bg-transparent">
+                    <h1 class="display">Category</h1>
+                    <a asp-action="Create" class="btn btn-icon btn-3 btn-primary active" type="button">
+                        @*    <span class="btn-inner--icon"><i class="ni ni-button-play"></i></span>
+*@    <span class="btn-inner--text">Create New</span>
+                    </a>
+                </div>
+                <div class="card-body px-0 pt-0 pb-2">
+                    <div class="table-responsive p-0">
+
+                        <div class="card">
+                            <div class="table-responsive">
+                                <table class="table align-items-center mb-0">
+                                    <thead>
+                                    <tr>
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                            @Html.DisplayNameFor(model => model.Name)
+                                        </th>
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
+                                            @Html.DisplayNameFor(model => model.IsActive)
+                                        </th>
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                            @Html.DisplayNameFor(model => model.ImageNameUrl)
+                                        </th>
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Action</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>
+                                                <p class="text-xs font-weight-bold mb-0">
+                                                    @Html.DisplayFor(modelItem => item.Name)
+                                                </p>
+
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.IsActive)
+                                            </td>
+                                            <td>
+                                                <div class="d-flex px-2">
+
+                                                    @{
+                                                      
+
+                                                    if (item.ImageNameUrl != null)
+                                                    {
+                                                        <div>
+                                                            <img src="~/images/@Html.DisplayFor(modelItem => item.ImageNameUrl)" class="avatar avatar-sm rounded-circle me-2">
+                                                        </div>
+                                                        <div class="my-auto">
+                                                            <h6 class="mb-0 text-xs">@Html.DisplayFor(modelItem => item.ImageNameUrl)</h6>
+                                                        </div>
+                                                    }
+                                                    else
+                                                    {
+                                                        <div>
+                                                            <img src="~/images/empty.png" class="avatar avatar-sm rounded-circle me-2">
+                                                        </div>
+                                                    }
+                                                }
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <a asp-action="Edit" asp-route-id="@item.CategoryId" class="btn btn-primary"><i class="bi bi-pencil"></i></a>
+@*                                                <a asp-action="Details" asp-route-id="@item.CategoryId" class="btn btn-primary"><i class="bi bi-eye"></i></a>
+*@                                                <a asp-action="Delete" asp-route-id="@item.CategoryId" class="btn btn-danger"><i class="bi bi-trash"></i></a>
+                                            </td>
+                                        </tr>
+                                    }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+@*
+
+
+
+<div class="container-fluid py-4">
+    <div class="row">
+        <div class="col-12">
+            <div class="card mb-4">
+                <div class="card-header pb-0">
+                    <h6>Authors table</h6>
+                </div>
+                <div class="card-body px-0 pt-0 pb-2">
+                    <div class="table-responsive p-0">
+                        <table class="table align-items-center mb-0">
+                            <thead>
+                                <tr>
+                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Author</th>
+                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Function</th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Status</th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Employed</th>
+                                    <th class="text-secondary opacity-7"></th>
+                                </tr>
+                            </thead>
+                           
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+   
+</div>
+
+*@
+
+
+
+@*<div class="container-fluid py-4">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header pb-0">
+                    <div class="d-flex align-items-center">
+                        <p class="mb-0">Edit Profile</p>
+                        <button class="btn btn-primary btn-sm ms-auto">Settings</button>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p class="text-uppercase text-sm">User Information</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="example-text-input" class="form-control-label">Username</label>
+                                <input class="form-control" type="text" value="lucky.jesse">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="example-text-input" class="form-control-label">Email address</label>
+                                <input class="form-control" type="email" value="jesse@example.com">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="example-text-input" class="form-control-label">First name</label>
+                                <input class="form-control" type="text" value="Jesse">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="example-text-input" class="form-control-label">Last name</label>
+                                <input class="form-control" type="text" value="Lucky">
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="horizontal dark">
+                    <p class="text-uppercase text-sm">Contact Information</p>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="example-text-input" class="form-control-label">Address</label>
+                                <input class="form-control" type="text" value="Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="example-text-input" class="form-control-label">City</label>
+                                <input class="form-control" type="text" value="New York">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="example-text-input" class="form-control-label">Country</label>
+                                <input class="form-control" type="text" value="United States">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="example-text-input" class="form-control-label">Postal code</label>
+                                <input class="form-control" type="text" value="437300">
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="horizontal dark">
+                    <p class="text-uppercase text-sm">About me</p>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="example-text-input" class="form-control-label">About me</label>
+                                <input class="form-control" type="text" value="A beautiful Dashboard for Bootstrap 5. It is Free and Open Source.">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+    </div>
+    
+</div>*@

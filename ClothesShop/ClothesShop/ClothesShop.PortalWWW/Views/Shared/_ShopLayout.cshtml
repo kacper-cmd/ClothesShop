@@ -1,0 +1,146 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Male_Fashion Template">
+    <meta name="keywords" content="Male_Fashion, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Thift Shop </title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap"
+          rel="stylesheet">
+
+    <!-- Css Styles -->
+
+    <link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/bootstrap/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/bootstrap/css/elegant-icons.css" rel="stylesheet" type="text/css" />
+    <link href="~/bootstrap/css/magnific-popup.css" rel="stylesheet" type="text/css" />
+    <link href="~/bootstrap/css/nice-select.css" rel="stylesheet" type="text/css" />
+    <link href="~/bootstrap/css/owl.carousel.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/bootstrap/css/slicknav.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/bootstrap/css/style.css" rel="stylesheet" type="text/css" />
+    <style>
+
+        .back-to-top {
+            background: none;
+            margin: 0;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            width: 70px;
+            height: 70px;
+            z-index: 100;
+            display: none;
+            text-decoration: none;
+            color: #000000;
+        }
+
+            .back-to-top:hover {
+                color: #000;
+            }
+
+            .back-to-top i {
+                font-size: 60px;
+            }
+    </style>
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    @await Component.InvokeAsync("MenuItemsComponent")
+
+
+    @RenderBody()
+
+
+    <!-- Footer Section Begin -->
+    @await Html.PartialAsync("~/Views/Partial/Footer.cshtml", ( IEnumerable<ClothesShop.Data.Data.CMS.Footer>)  ViewBag.ModelFooter))
+
+@*<div class="search-model">
+    <div class="h-100 d-flex align-items-center justify-content-center">
+        <div class="search-close-switch">+</div>
+        <form class="search-model-form">
+            <input type="text" id="search-input" placeholder="Search here.....">
+        </form>
+    </div>
+</div>*@
+@await Html.PartialAsync("~/Views/Partial/SearchPartial.cshtml")
+
+
+  
+    <a href="#" class="back-to-top" style="display: inline;">
+        <i class="fa fa-arrow-circle-up"></i>
+    </a>
+
+    <!-- Search End -->
+    <!-- Js Plugins -->
+    <script src="~/bootstrap/js/jquery-3.3.1.min.js"></script>
+    <script src="~/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/bootstrap/js/jquery.nice-select.min.js"></script>
+    <script src="~/bootstrap/js/jquery.nicescroll.min.js"></script>
+    <script src="~/bootstrap/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/bootstrap/js/jquery.countdown.min.js"></script>
+    <script src="~/bootstrap/js/jquery.slicknav.js"></script>
+    <script src="~/bootstrap/js/mixitup.min.js"></script>
+    <script src="~/bootstrap/js/owl.carousel.min.js"></script>
+    <script src="~/bootstrap/js/main.js"></script>
+    <script>
+        ////Get the button
+        //let mybutton = document.getElementById("btn-back-to-top");
+
+        //// When the user scrolls down 20px from the top of the document, show the button
+        //window.onscroll = function () {
+        //    scrollFunction();
+        //};
+
+        //function scrollFunction() {
+        //    if (
+        //        document.body.scrollTop > 20 ||
+        //        document.documentElement.scrollTop > 20
+        //    ) {
+        //        mybutton.style.display = "block";
+        //    } else {
+        //        mybutton.style.display = "none";
+        //    }
+        //}
+        //// When the user clicks on the button, scroll to the top of the document
+        //mybutton.addEventListener("click", backToTop);
+
+        //function backToTop() {
+        //    document.body.scrollTop = 0;
+        //    document.documentElement.scrollTop = 0;
+        //}
+
+        jQuery(document).ready(function () {
+            var offset = 250;
+            var duration = 300;
+            jQuery(window).scroll(function () {
+                if (jQuery(this).scrollTop() > offset) {
+                    jQuery('.back-to-top').fadeIn(duration);
+                } else {
+                    jQuery('.back-to-top').fadeOut(duration);
+                }
+            });
+            jQuery('.back-to-top').click(function (event) {
+
+                event.preventDefault();
+                jQuery('html, body').animate({ scrollTop: 0 }, duration);
+                return false;
+            })
+        });
+    </script>
+
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

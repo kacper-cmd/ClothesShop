@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WebsiteProjectMobile.Views.OrderDetailPage">
+    <ContentPage.Content>
+        <StackLayout Spacing="10" Padding="10">
+            <Label Text="Order Details" FontSize="Title" />
+
+            <Label Text="Order ID" FontAttributes="Bold" />
+            <Label Text="{Binding OrderId}" />
+
+            <Label Text="Customer Name" FontAttributes="Bold" />
+            <Label Text="{Binding UserName}" />
+
+
+            <Label Text="Total Amount" FontAttributes="Bold" />
+            <Label Text="{Binding TotalCost}" />
+
+            <Label Text="Order Date" FontAttributes="Bold" />
+            <Label Text="{Binding OrderDate}" />
+            
+            <Label Text="Order Date" FontAttributes="Bold" />
+            <Label Text="{Binding DeliveryDate}" />
+            
+
+            <Label Text="Status" FontAttributes="Bold" />
+            <Label Text="{Binding OrderStatus}" />
+           
+
+            <Label Text="Items" FontAttributes="Bold" />
+            <!--<CollectionView ItemsSource="{Binding Order.OrderProducts}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame BackgroundColor="#EDEDED" Padding="10" Margin="10">
+                            <StackLayout Orientation="Vertical">
+                                <Label Text="{Binding Product.Name}" FontSize="Subtitle" />
+                                <Label Text="{Binding Product.Quantity}" FontSize="Body" />
+                                <Label Text="{Binding Product.Price}" FontSize="Body" />
+                                <Label Text="{Binding Product.Size.Size1}" FontSize="Body" />
+                            </StackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Vertical" />
+                </CollectionView.ItemsLayout>
+            </CollectionView>-->
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+    
+    
+    
